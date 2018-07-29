@@ -1,0 +1,46 @@
+<html>
+    <head>
+	    <title>Hospital Management System</title>
+        <link href = "home.css" type= "text/css" rel = "stylesheet">	
+        <link href = "style.css" type= "text/css" rel = "stylesheet">
+	</head> 
+	
+	    <header>
+		    <div class ="row">
+                <ul class = "main-nav">
+				    <li ><a href = "./home.html"> Home </a></li>
+					<li  ><a href = "./Doctor.html"> Doctos Info </a></li>
+					<li ><a href ="./patient.html"> Patient Info </a></li>
+					<li class="active" ><a href = ""> Stuff Info</a></li>
+					<li><a href = "./Developer.html"> Developer Info</a></li>
+                     					
+				</ul>  
+				
+			</div>	
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	    </header> 
+    <body>
+        <form action="stuff_add.php" method="post">
+               <div class="form-group">
+       <div class="jumbotron">
+    
+          
+     <input type="Text" class="form-control" placeholder="Enter Stuff Name" name="sname" required>
+    
+    <input type="Text" class="form-control" placeholder="Enter Stuff Postion" name="spostion" required>
+    <input type ="number" class="form-control" placeholder="Enter stuff Phone Number" name="sphone" required>    
+       <script>
+             function my()
+               {
+                   alert( "SuccessFully Insert");
+               }
+           </script>
+             <br><br><input onclick="my()" class="pra" type="submit" name="submit" value="Submit">
+                <a href="./index2.php" class="pra">Show</a>
+            </div>
+                   </div>
+        </form>		
+	</body>

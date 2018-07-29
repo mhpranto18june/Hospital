@@ -1,0 +1,102 @@
+*
+{
+	margin : 0px;
+	padding : 0px;
+}
+body 
+{
+	font-family : sans-serif;
+	background-image :linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(k.jpg);
+	height : 100vh;
+	background-position : center;
+	background-size : cover;
+	text-align : center;
+}
+.main-nav
+{
+	float : right;
+	list-style : none;
+	margin-top : 20px;
+	
+	
+}
+.main-nav li
+{
+	display : inline-block;
+}
+.main-nav li a
+{
+	color : white;
+	text-decoration : none;
+	padding : 15px 30px;
+	font-family : "Roboto" , sans-serif;
+	font-size : 30px;
+	
+}
+.main-nav li.active a
+{
+	border : 1px solid white;
+}
+.main-nav li a:hover
+{
+	border : 1px solid white;
+}
+.body
+{
+	font-family : Comic Sans MS;
+}
+.row
+{
+	max-width : 9000px;
+	margin : auto;
+}
+
+.hero
+{
+	position : absolute;
+	width : 900px;
+	margin-left : 50px;
+	margin-top : 0px;
+	
+
+}
+h1
+{
+	color : white ;
+	text-transform : uppercase;
+	font-size : 65px;
+	margin-top :10px;
+	text-align : center;
+}
+.button
+{
+	margin-top : 30px;
+	margin-left : 20px;
+}
+.btn
+{
+	border : 1px solid white;
+	padding : 10px 30px;
+	color : white;
+	text-decoration : none ;
+	margin-right : 5px;
+	font-size : 13px;
+	text-transform : uppercase;
+}
+
+.btn-one , .btn-two
+{
+	font-family : "Roboto" , sans-serif;
+}
+.btn-one:hover
+{
+	background-color :darkorange;
+	transition : all 0.5s  ease-in; 
+	
+}
+.btn-two:hover
+{
+	background-color :darkorange;
+	transition : all 0.5s  ease-in; 
+	
+}
